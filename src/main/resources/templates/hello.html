@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title> Java Hello</title>
+    <title>Clockwork Java Hello</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 </head>
 <body>
-Java Hello
+<p th:each="person : ${people}" th:text="${person.name}"/>
 </body>
 </html>
